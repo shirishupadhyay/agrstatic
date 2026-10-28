@@ -1,80 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>AGR Spices & Foods | Coming Soon</title>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <div class="container">
-         <div class="logo">
-            <img src="logo.png" alt="AGR Spices & Foods Logo">
-         </div>
-         <div class="tagline">
-            Pure • Authentic • Traditional Indian Spices
-         </div>
-         <div class="coming">Our Website is Launching Soon</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGR Spices & Foods | Order on WhatsApp</title>
+  <meta name="description" content="Our website is being built. Until then, order authentic Indian spices from AGR Spices & Foods on WhatsApp.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
 
-          <div class="desc">
-          AGR Spices & Foods is currently serving customers offline with
-          high-quality and authentic Indian spices.
-          Our online store will be launching soon to bring these flavors directly to your home.
-          </div>
-         <div class="countdown">
-            <div class="time-box">
-               <div id="days" class="time">00</div>
-               <div class="label">Days</div>
-            </div>
-            <div class="time-box">
-               <div id="hours" class="time">00</div>
-               <div class="label">Hours</div>
-            </div>
-            <div class="time-box">
-               <div id="minutes" class="time">00</div>
-               <div class="label">Minutes</div>
-            </div>
-            <div class="time-box">
-               <div id="seconds" class="time">00</div>
-               <div class="label">Seconds</div>
-            </div>
-         </div>
-         <div class="social">
-            <a href="https://www.instagram.com/agr_spices/">Instagram</a>
-            <a href="https://wa.me/917680026060" target="_blank">WhatsApp</a>
+    <div class="logo">
+      <img src="logo.png" alt="AGR Spices & Foods Logo">
+    </div>
 
-            <a href="tel:+91 7680026060">Call</a>
-            <!--
-            <a href="https://maps.google.com/?q=AGR+Spices+and+Foods" target="_blank">
-            Location
-            </a>
-          -->
-         </div>
-         <footer>
-            © 2026 AGR Spices & Foods. All Rights Reserved.
-         </footer>
+    <div class="tagline">Pure • Authentic • Traditional Indian Spices</div>
+
+    <div class="coming">We are building our website</div>
+
+    <div class="desc">
+      AGR Spices & Foods is currently serving customers offline with
+      high-quality and authentic Indian spices. Our online store is on its way.
+      Until then, you can order directly from us on WhatsApp.
+    </div>
+
+    <div class="order-box">
+      <p>Tell us what you need and we will confirm the details on chat.</p>
+
+      <a class="btn-whatsapp"
+         href="https://wa.me/917680026060?text=Hi%20AGR%20Spices%20%26%20Foods%2C%20I%20would%20like%20to%20place%20an%20order."
+         target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+          <path d="M16.003 3C8.83 3 3 8.83 3 16c0 2.29.6 4.52 1.74 6.49L3 29l6.68-1.72A12.94 12.94 0 0 0 16.003 29C23.17 29 29 23.17 29 16S23.17 3 16.003 3zm0 23.7a10.7 10.7 0 0 1-5.46-1.5l-.39-.23-3.96 1.02 1.06-3.86-.25-.4A10.67 10.67 0 0 1 5.3 16c0-5.9 4.8-10.7 10.7-10.7S26.7 10.1 26.7 16s-4.8 10.7-10.7 10.7zm5.87-8c-.32-.16-1.9-.94-2.2-1.04-.3-.11-.51-.16-.73.16-.21.32-.84 1.04-1.03 1.25-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.9-1.79-2.22-.19-.32-.02-.5.14-.66.14-.14.32-.38.48-.57.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.73-1.76-1-2.4-.26-.63-.53-.54-.73-.55h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.48 4.84.77.33 1.37.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37z"/>
+        </svg>
+        Order on WhatsApp
+      </a>
+
+      <div class="social">
+        <a href="tel:+917680026060">Call us</a>
+        <a href="https://www.instagram.com/agr_spices/" target="_blank" rel="noopener">Instagram</a>
       </div>
-      <script>
-         var launchDate = new Date("May 1, 2026 00:00:00").getTime();
+    </div>
 
-         var timer = setInterval(function(){
+    <footer>
+      © 2026 AGR Spices & Foods. All Rights Reserved.
+    </footer>
 
-         var now = new Date().getTime();
-         var distance = launchDate - now;
-
-         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-         document.getElementById("days").innerHTML = days;
-         document.getElementById("hours").innerHTML = hours;
-         document.getElementById("minutes").innerHTML = minutes;
-         document.getElementById("seconds").innerHTML = seconds;
-
-         },1000);
-
-      </script>
-   </body>
+  </div>
+</body>
 </html>
